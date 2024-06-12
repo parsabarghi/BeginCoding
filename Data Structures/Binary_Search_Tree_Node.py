@@ -64,6 +64,33 @@ class BinarySearchTree:
             return self.left.find_min()
         else:
             return self.data
+    
+    def delete(self, val):
+        if val < self.data:
+            if self.left:
+                self.left = self.left.delete(val)
+
+        elif val > self.data:
+            if self.right:
+                self.right = self.right.delete(val)
+
+        else:
+            if self.left is None and self.right is None:
+                return None
+            if self.left is None:
+                return self.right
+            if self.right is None:
+                return self.left
+
+            min_val = self.right.find_min()
+            self.data = min_val
+            self.right = self.right.delete(min_val)
+            """or we can use left max
+            max_val = self.left.find_max()
+            self.data = max_val
+            self.left = self.left.delete(max_val)"""
+
+        return self
 
 def build_tree(element):
     root = BinarySearchTree(element[0])
@@ -81,3 +108,5 @@ if __name__ == '__main__':
     print(f"DID WE HAD NUMBER 10 IN OUR LIST? {number_tree.search(10)}")
     print(f"WHAT IS MAX NUMBER IN LIST? {number_tree.find_max()}")
     print(f"WHAT IS MAN NUMBER IN LIST? {number_tree.find_min()}")
+    number_tree.delete(65)
+    print(f"LIST AFTER DELETE ITEM:\n{number_tree.in_order_traversal()}")
