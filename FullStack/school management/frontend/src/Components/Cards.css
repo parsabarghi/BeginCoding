@@ -1,0 +1,24 @@
+.card-container {
+    display: flex;
+    flex-direction: row;
+    /* Change to row to display cards side by side */
+    flex-wrap: wrap;
+    /* Allow cards to wrap to the next line if they don't fit in one row */
+    justify-content: center;
+    /* Center the cards horizontally */
+    gap: 20px;
+    /* Space between cards */
+    padding: 20px;
+}
+
+.Card {
+    width: 18rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+.card-delete-button{
+    padding: 20px;
+    margin: 10px;
+    cursor: pointer;
+}

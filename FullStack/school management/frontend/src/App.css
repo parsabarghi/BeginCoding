@@ -1,0 +1,39 @@
+.home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+}
+
+.home-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.home-text {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.home-image {
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.home-description {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.home-guidelines {
+    list-style-type: none;
+    padding: 0;
+}
+
+.home-guidelines li {
+    margin-bottom: 10px;
+    text-align: center;
+}
