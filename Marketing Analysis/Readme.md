@@ -95,11 +95,11 @@ Where
 
 ## What was our duty?
 
-![image](./images/business%20problem.png)
+![image](./Images/business%20problem.png)
 
 ## KPIs
 
-![image](./images/kpis.png)
+![image](./Images/kpis.png)
 
 ## Sentiment Analysis
 
@@ -111,7 +111,7 @@ This is a output from my code:
 
 Also you can see a plot of this code:
 
-![image](./images/sentiment%20analysis.png)
+![image](./Images/sentiment%20analysis.png)
 
 You can use my code by:
 
@@ -121,7 +121,7 @@ pip install -r requirements.txt
 
 ## What was our Goal from this process?
 
-![image](./images/Goals.png)
+![image](./Images/Goals.png)
 
 ## Dashboard
 
