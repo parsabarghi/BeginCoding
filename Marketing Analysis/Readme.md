@@ -1,13 +1,13 @@
 # Marketing Data Analysis
 
 In this project we look at the Marketing Data. The data are from a shop that sell the Sport stuff.
-so, we analysis the data in the MySQL, then make NLP on the data and extract the csv file ('fact_customer_review_with_sentiment') using Python and at the end we make a Dashboard using PowerBI.
+so, we analysis the data in the SQL Server, then make NLP on the data and extract the csv file ('fact_customer_review_with_sentiment') using Python and at the end we make a Dashboard using PowerBI.
 
 ## Data
 
 Our Dataset contain some important information. we had information about customers, their journey on our shop, their review of our Sport stuff, Geography, Likes, Clicks, Views, also we had a dataset about our product.
 
-In this case at the first step we should make EDA on our Dataset to extract meaningful information and their Relationship with other Datasets. Even if we need, we make new dataset from two or more table on MySql.
+In this case at the first step we should make EDA on our Dataset to extract meaningful information and their Relationship with other Datasets. Even if we need, we make new dataset from two or more table on SQL Server.
 
 As i mention we do all of this thing in the MySQL. We make Database, import Tables, EDA, Joins and Etc.
 For Example:
